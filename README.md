@@ -26,7 +26,7 @@ Handlebars-helper v0.10
 Use Bash or Zsh Command Line to clone:
 
 ```bash
-git clone https://github.com/jefflin-git/trash_talk_generator.git
+git clone https://github.com/ChenSingYo/Talk_Rubbish.git
 ```
 
 Get into the directory
