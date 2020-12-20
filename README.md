@@ -2,9 +2,8 @@
 
 Generate some nonsense toward Engineer, Designer, Startupper.
 
-### Main Page
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8c583e4-8f58-4a4c-b4e1-669d0d6d9606/_2020-12-20_6.52.12.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8c583e4-8f58-4a4c-b4e1-669d0d6d9606/_2020-12-20_6.52.12.png)
+#### Main Page
+<img width="1276" alt="" src="https://user-images.githubusercontent.com/69234380/102718553-b97faa00-4323-11eb-9dba-2422ba83d1ba.png">
 
 ## **Features**
 
@@ -65,4 +64,4 @@ Check it out with your browser: [http://localhost:3000/](http://localhost:3000/)
 
 ## C**ontributor**
 
-> SingYo
+[SingYo](https://github.com/ChenSingYo/)
