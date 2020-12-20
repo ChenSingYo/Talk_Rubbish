@@ -1,0 +1,52 @@
+<div class="container">
+  <form method="POST" action="/">
+    <div>
+      <center>
+        <h3>Choose one to talk rubbish</h3>
+      </center>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 col-sm-4 col-md-4 ">
+        <label for="engineer" class="card " style="width: 18rem; cursor: pointer">
+          <img src="img/coder.png" class="card-img-top" alt="engineer" height="220" width="250">
+          <div class="card-body">
+            <p class="card-text">
+              <input type="radio" id="engineer" name="targets" value="engineer"{{#is role 'engineer'}} checked {{/is}}>&ensp;Engineer
+            </p>
+          </div>
+        </label>
+      </div>
+      <div class="col-12 col-sm-4 col-md-4">
+        <label for="designer" class="card" style="width: 18rem; cursor: pointer">
+          <img src="img/designer.png" class="card-img-top" alt="designer" height="220" width="250">
+          <div class="card-body">
+            <p class="card-text">
+              <input type="radio" id="designer" name="targets" value="designer"{{#is role 'designer'}} checked {{/is}}>&ensp;Desginer
+            </p>
+          </div>
+        </label>
+      </div>
+      <div class="col-12 col-sm-4 col-md-4">
+        <label for="startupper" class="card" style="width: 18rem; cursor: pointer">
+          <img src="img/startupper.png" class="card-img-top" alt="startupper" height="220" width="250">
+          <div class="card-body">
+            <p class="card-text">
+              <input type="radio" id="startupper" name="targets" value="startupper"{{#is role 'startupper'}} checked {{/is}}>&ensp;Startupper
+            </p>
+          </div>
+        </label>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-2 col-sm-2 col-md-2">
+        <button class="btn btn-success" type="submit">make rubbish</button>
+      </div>
+      <div class="form-group col-10 col-sm-10 col-md-9">
+        <textarea class="form-control text-danger font-weight-bold" id="sentence" name="sentence" rows="1">
+            {{nonsense}}
+        </textarea>
+      </div>
+    </div>
+  </form>
+</div>
